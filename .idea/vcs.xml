@@ -2,8 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../spb3-java17-jms-kafka-Service-1" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../spb3-java17-jms-kafka-Service-2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../spb3-java17-jms-kafka-service-1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../spb3-java17-jms-kafka-service-2" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../spring-cloud-eureka" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../spring-cloud-gateway" vcs="Git" />
   </component>
