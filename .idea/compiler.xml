@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-circuit-breaker" />
         <module name="spb3-java17-jms-kafka-service-2" />
         <module name="com-jesusfc-eureka-service" />
         <module name="spb3-java17-jms-kafka-service-1" />
@@ -20,6 +21,7 @@
       <module name="gateway" options="-parameters" />
       <module name="spb3-java17-jms-kafka-service-1" options="-parameters" />
       <module name="spb3-java17-jms-kafka-service-2" options="-parameters" />
+      <module name="spring-cloud-circuit-breaker" options="-parameters" />
     </option>
   </component>
 </project>
