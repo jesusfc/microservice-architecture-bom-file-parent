@@ -22,6 +22,14 @@
           <option value="spb3-java17-jms-kafka-service-1" />
           <option value="spb3-java17-jms-kafka-service-1" />
           <option value="spb3-java17-jms-kafka-service-1" />
+          <option value="spring-cloud-config-server" />
+          <option value="spring-cloud-config-server" />
+          <option value="spring-cloud-circuit-breaker" />
+          <option value="gateway" />
+          <option value="gateway" />
+          <option value="spring-cloud-config-server" />
+          <option value="spb3-java17-jms-kafka-service-1" />
+          <option value="spb3-java17-jms-kafka-service-1" />
         </list>
       </option>
       <option name="ignoredPackages">
@@ -43,10 +51,26 @@
           <option value="org.apache.httpcomponents:httpclient:4.5.3" />
           <option value="commons-fileupload:commons-fileupload:1.5" />
           <option value="org.springframework:spring-web:6.1.2" />
+          <option value="org.springframework:spring-web:6.1.2" />
+          <option value="org.xmlunit:xmlunit-core:2.9.1" />
+          <option value="com.thoughtworks.xstream:xstream:1.4.20" />
+          <option value="com.thoughtworks.xstream:xstream:1.4.20" />
+          <option value="org.apache.httpcomponents:httpclient:4.5.3" />
+          <option value="com.thoughtworks.xstream:xstream:1.4.20" />
+          <option value="commons-io:commons-io:2.11.0" />
+          <option value="org.bouncycastle:bcprov-jdk18on:1.77" />
         </list>
       </option>
       <option name="ignoredReasons">
         <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
           <option value="Not exploitable" />
           <option value="Not exploitable" />
           <option value="Not exploitable" />
