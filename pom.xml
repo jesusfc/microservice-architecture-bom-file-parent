@@ -44,6 +44,14 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
 
+    <modules>
+        <module>../spring-cloud-gateway</module>
+        <module>../spb3-java17-jms-kafka-service-1</module>
+        <module>../spb3-java17-jms-kafka-service-2</module>
+        <module>../spring-cloud-circuit-breaker</module>
+        <module>../spring-cloud-eureka</module>
+    </modules>
+
     <dependencyManagement>
         <dependencies>
 
