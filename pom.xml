@@ -50,6 +50,7 @@
         <module>../spb3-java17-jms-kafka-service-2</module>
         <module>../spring-cloud-circuit-breaker</module>
         <module>../spring-cloud-eureka</module>
+        <module>../spring-cloud-config-server</module>
     </modules>
 
     <dependencyManagement>
