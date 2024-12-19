@@ -9,6 +9,7 @@ Bom file for unification of dependencies in a microservices architecture
 - Spring Api Rest Service 1 (port: 8081)
 - Spring Api Rest Service 2 (port: 8082)
 - Artemis JMS (port: 8161) with Docker
+- ZipKin Distributed Tracing (port: 9411) with Docker
 
 ## Dependencias
 - Started Web
