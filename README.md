@@ -18,3 +18,5 @@ Bom file for unification of dependencies in a microservices architecture
 - Project Lombok
 - JUnit
 - Mockito
+
+# Building Docker images with Maven
