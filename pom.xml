@@ -19,6 +19,7 @@
     <name>spb3-bom-file-parent</name>
     <description>Bom file for unification of dependencies in a microservices architecture</description>
 
+    <!-- We use POM packaging to avoid the creation of a JAR file -->
     <packaging>pom</packaging>
 
     <!--licenses><license><name></name><url></url></license></licenses-->
