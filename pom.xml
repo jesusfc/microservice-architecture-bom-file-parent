@@ -43,7 +43,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <docker.image.prefix>jesusfc</docker.image.prefix>
+        <docker.image.prefix>jfcaraballo</docker.image.prefix>
         <docker.image.name>${project.artifactId}</docker.image.name>
         <!--spring-boot.version>3.4.0</spring-boot.version>
         <spring-cloud.version>4.2.0</spring-cloud.version-->
@@ -175,6 +175,7 @@
                 </executions>
             </plugin>
 
+            <!-- https://dmp.fabric8.io/ -->
             <plugin>
                 <groupId>io.fabric8</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
