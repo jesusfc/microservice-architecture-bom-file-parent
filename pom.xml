@@ -175,37 +175,6 @@
                 </executions>
             </plugin>
 
-            <!-- https://dmp.fabric8.io/ -->
-            <plugin>
-                <groupId>io.fabric8</groupId>
-                <artifactId>docker-maven-plugin</artifactId>
-                <version>0.33.0</version>
-                <configuration>
-                    <!--dockerHost></dockerHost-->
-                    <verbose>true</verbose>
-                    <images>
-                        <image>
-                            <name>${docker.image.prefix}/${docker.image.name}</name>
-                            <alias>${docker.image.name}</alias>
-                            <build>
-                                <!--from>openjdk:17-jdk-alpine</from-->
-                                <assembly>
-                                    <descriptorRef>artifact</descriptorRef>
-                                </assembly>
-                                <tags>
-                                    <tag>latest</tag>
-                                    <tag>${project.version}</tag>
-                                </tags>
-                                <!--entryPoint>
-                                    <shell>sh</shell>
-                                    <arg>-c</arg>
-                                    <arg>java -jar /app/${project.artifactId}-${project.version}.jar</arg>
-                                </entryPoint-->
-                            </build>
-                        </image>
-                    </images>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
     <repositories>
