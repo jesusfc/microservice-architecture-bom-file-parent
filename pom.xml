@@ -54,6 +54,7 @@
         <module>../spb3-java17-jms-kafka-service-1</module>
         <module>../spb3-java17-jms-kafka-service-2</module>
         <module>../spb3-java17-webflux-service-3</module>
+        <module>../spb3-java17-webflux-service-4</module>
         <module>../spring-cloud-circuit-breaker</module>
         <module>../spring-cloud-eureka</module>
         <module>../spring-cloud-config-server</module>
