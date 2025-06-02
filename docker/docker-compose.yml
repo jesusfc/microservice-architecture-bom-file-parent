@@ -2,6 +2,22 @@ version: '3.8'
 
 services:
 
+  mysql:
+    image: mysql:latest
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: mydb
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - my_spring-cloud-network
+    restart: always
+
   activeMq:
     image: apache/activemq-artemis:latest
     container_name: activemq
